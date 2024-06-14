@@ -1,0 +1,48 @@
+body {
+    background-color: #f5faff;
+    overflow: hidden;
+  }
+  
+  .background-shapes {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+  }
+  
+  .shape1, .shape2, .shape3, .shape4 {
+    position: absolute;
+    background: #e9f3ff;
+    border-radius: 4px;
+  }
+  
+  .shape1 {
+    width: 200px;
+    height: 200px;
+    top: 10%;
+    left: 15%;
+  }
+  
+  .shape2 {
+    width: 150px;
+    height: 150px;
+    top: 40%;
+    left: 60%;
+  }
+  
+  .shape3 {
+    width: 250px;
+    height: 250px;
+    top: 75%;
+    left: 20%;
+  }
+  
+  .shape4 {
+    width: 100px;
+    height: 100px;
+    top: 20%;
+    left: 80%;
+  }
+  
